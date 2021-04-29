@@ -1,0 +1,18 @@
+yves@UbuntuYves:~$ kubectl -n online-boutique get pods
+NAME                                     READY   STATUS    RESTARTS   AGE
+adservice-7659d48d84-t6vb8               2/2     Running   0          101s
+cartservice-65c987d449-xm7mv             2/2     Running   2          101s
+checkoutservice-8bddb89db-85snc          2/2     Running   0          101s
+currencyservice-7978fb77d8-67n8g         2/2     Running   0          100s
+emailservice-8848674-ss6j9               2/2     Running   0          101s
+frontend-58594bf684-9cwsz                2/2     Running   0          100s
+paymentservice-77979f5c66-mzgpj          2/2     Running   0          100s
+productcatalogservice-7d5f94d858-vqghp   2/2     Running   0          100s
+recommendationservice-764dc66688-x284d   2/2     Running   0          99s
+redis-cart-74594bd569-skrxp              2/2     Running   0          99s
+shippingservice-589dc45c5d-b6jxw         2/2     Running   0          99s
+yves@UbuntuYves:~$ istioctl version
+client version: 1.9.1
+control plane version: 1.9.1
+data plane version: 1.9.1 (13 proxies)
+yves@UbuntuYves:~$ 
